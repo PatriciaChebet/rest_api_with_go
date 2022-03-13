@@ -13,7 +13,7 @@ func (app *App) Run() error {
 func main() {
 	fmt.Println("Go REST API")
 	app := App{}
-    if err := app.Run(); if err != nil{
+	if err := app.Run(); err != nil {
 		fmt.Println("Error starting App")
 		fmt.Println(err)
 	}
